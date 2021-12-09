@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,192 +8,258 @@
     <link rel="stylesheet" href="./css/stylesheet.css" />
     <script src="./js/helper.js" defer></script>
     <script src="./js/index.js" defer></script>
-</head>
-
-<body>
+  </head>
+  <body>
     <div class="app-header" role="banner">
-        <h1 class="brand">
-            <a href="https://github.com/tlgns1212" target="_blank">
-                <img class="respons" src="./images/tlgns1212.PNG" alt="TLGNS1212" />
-            </a>
-        </h1>
-        <button type="button" class="button is-open-menu" title="메뉴 열기" aria-label="메뉴 열기">
+      <h1 class="brand">
+        <a href="https://github.com/tlgns1212" target="_blank">
+          <img
+            class="respons"
+            src="./images/tlgns1212.PNG"
+            alt="Sihoon Github"
+          />
+        </a>
+      </h1>
+      <button
+        type="button"
+        class="button is-open-menu"
+        title="메뉴 열기"
+        aria-label="메뉴 열기"
+      >
         <span class="ir"></span>
       </button>
-        <div role="navigation" class="app-navigation">
-            <h2 class="a11y-hidden">메인 메뉴</h2>
-            <ul class="reset-list">
-                <li><a href="#">김시훈 졸업 초등학교</a></li>
-                <li><a href="#">김시훈 졸업 중학교</a></li>
-                <li><a href="#">김시훈 졸업 고등학교</a></li>
-                <li><a href="#">김시훈 재학 대학교</a></li>
-                <li><a href="#">김시훈한테 질문하세요</a></li>
-                <li><a href="#">김시훈 집 찾아가기</a></li>
-            </ul>
-            <button type="button" class="button is-close-menu" title="메뉴 닫기" aria-label="메뉴 닫기">
+      <div role="navigation" class="app-navigation">
+        <h2 class="a11y-hidden">메인 메뉴</h2>
+        <ul class="reset-list">
+          <li><a href="#">김시훈 졸업 초등학교</a></li>
+          <li><a href="#">김시훈 졸업 중학교</a></li>
+          <li><a href="#">김시훈 졸업 고등학교</a></li>
+          <li><a href="#">김시훈 재학 대학교</a></li>
+          <li><a href="#">김시훈한테 질문하세요</a></li>
+          <li><a href="#">김시훈 집 찾아가기</a></li>
+        </ul>
+        <button
+          type="button"
+          class="button is-close-menu"
+          title="메뉴 닫기"
+          aria-label="메뉴 닫기"
+        >
           <span class="close" aria-hidden="true">×</span>
         </button>
-        </div>
+      </div>
     </div>
     <div class="app-main" role="main">
-        <h2 class="a11y-hidden">김시훈 정보</h2>
-        <ul class="sihoon-menu reset-list">
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/hobby.png" alt width="323" height="323" />
-                        <figcaption>김시훈 취미</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item1">
-                    <h3 id="sihoon-menu__item1" class="sihoon-menu__item--name">
-                        김시훈 취미<span lang="en">(Sihoon's Hobby)</span>
-                    </h3>
-                    <p>
-                        격렬한 운동은 물론 자칫 그냥 지나칠 수 있는 작은 것들을 관찰하는 행동들
-                    </p>
-                    <div class="sihoon-menu__item--multi-column is-2">
-                        <dl>
-                            <dt>농구</dt>
-                            <dd>★★★☆☆</dd>
-                            <dt>영화 관람</dt>
-                            <dd>★★☆☆☆</dd>
-                            <dt>사진 촬영</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>컴퓨터 게임</dt>
-                            <dd>★★★★★</dd>
-                            <dt>음악 감상</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>수면 또 수면!</dt>
-                            <dd>★★★★★</dd>
-                        </dl>
-                    </div>
-                    <button type="button" class="button is-close-panel" title="닫기" aria-label="시훈 정보 패널 닫기">
-              <span aria-hidden="true">×</span>
-            </button>
-                </div>
-            </li>
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/specialty.jpg" alt width="323" height="323" />
-                        <figcaption>김시훈 특기</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item2">
-                    <h3 id="sihoon-menu__item2" class="sihoon-menu__item--name">
-                        김시훈<span lang="en">(Sihoon's specialty)</span>
-                    </h3>
-                    <p>
-                        컴퓨터를 맞추는건 잘 못하지만, 컴퓨터를 활용하는건 잘함!
-                    </p>
-                    <div class="sihoon-menu__item--multi-column is-2">
-                        <dl>
-                            <dt>컴퓨터 게임</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>배드민턴</dt>
-                            <dd>★★★☆☆</dd>
-                            <dt>탁구</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>숙면</dt>
-                            <dd>★★★★★</dd>
-                            <dt>멍 때리기</dt>
-                            <dd>★★★☆☆</dd>
-                            <dt>골프</dt>
-                            <dd>★★☆☆☆</dd>
-                        </dl>
-                    </div>
-                    <button type="button" class="button is-close-panel" title="닫기" aria-label="시훈 정보 패널 닫기">
-              <span aria-hidden="true">×</span>
-            </button>
-                </div>
-            </li>
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/leagueoflegend.jpg" alt width="323" height="323" />
-                        <figcaption>김시훈 롤 챔피언</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item3">
-                    <h3 id="sihoon-menu__item3" class="sihoon-menu__item--name">
-                        최애 챔피언<span lang="en">(Beloved Champions)</span>
-                    </h3>
-                    <p>
-                        홍철이 닮은 듯 닮지 않은 듯 닮은 친구
-                    </p>
-                    <div class="sihoon-menu__item--multi-column is-2">
-                        <dl>
-                            <dt>드레이븐</dt>
-                            <dd>★★★★★</dd>
-                            <dt>누누</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>렝가</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>파이크</dt>
-                            <dd>★★★☆☆</dd>
-                            <dt>라이즈</dt>
-                            <dd>★★☆☆☆</dd>
-                            <dt>트린다미어</dt>
-                            <dd>★★☆☆☆</dd>
-                        </dl>
-                    </div>
-                    <button type="button" class="button is-close-panel" title="닫기" aria-label="시훈 정보 패널 닫기">
-              <span aria-hidden="true">×</span>
-            </button>
-                </div>
-            </li>
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/seulgi.jpg" alt width="323" height="323" />
-                        <figcaption>김시훈 최애 연예인</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item4">
-                    <h3 id="sihoon-menu__item4" class="sihoon-menu__item--name">
-                        군대 시절 최애<span lang="en">(From the ARMY)</span>
-                    </h3>
-                    <p>
-                        빠질 수 밖에 없는 매력, 연예인을 별로 좋아하지 않지만, 군대에서 어쩔 수 없이 빠지게 된 헤어나올 수 없는 인물들
-                    </p>
-                    <div class="sihoon-menu__item--multi-column is-2">
-                        <dl>
-                            <dt>슬기</dt>
-                            <dd>★★★★★</dd>
-                            <dt>우기</dt>
-                            <dd>★★★★★</dd>
-                            <dt>정채연</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>백지헌</dt>
-                            <dd>★★☆☆☆</dd>
-                            <dt>이채령</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>장원영</dt>
-                            <dd>★★☆☆☆</dd>
-                        </dl>
-                    </div>
-                    <button type="button" class="button is-close-panel" title="닫기" aria-label="시훈 정보 패널 닫기">
-              <span aria-hidden="true">×</span>
-            </button>
-                </div>
-            </li>
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/tesla.jpg" alt width="323" height="323" />
-                        <figcaption>김시훈 롤모델</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item5">
-                    <h3 id="sihoon-menu__item5" class="sihoon-menu__item--name">
-                        닮고 싶고 좋아하는 사람<span lang="en">(Wanna Be)</span
-              >
+      <h2 class="a11y-hidden">김시훈 정보</h2>
+      <ul class="sihoonKim-menu reset-list">
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img src="./images/hobby.png" alt width="323" height="323" />
+              <figcaption>김시훈 취미</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item1"
+          >
+            <h3 id="sihoonKim-menu__item1" class="sihoonKim-menu__item--name">
+              김시훈 취미<span lang="en">(Sihoon's Hobby)</span>
             </h3>
             <p>
-              돈도 많이 벌고, 인기는 있을지 없을지 모르지만, 일단 돈이 많으니 인기가 많을 거라고 유추하고 있는 인물들
+              격렬한 운동은 물론 자칫 그냥 지나칠 수 있는 작은 것들을 관찰하는
+              행동들
             </p>
-            <div class="sihoon-menu__item--multi-column is-2">
+            <div class="sihoonKim-menu__item--multi-column is-2">
+              <dl>
+                <dt>농구</dt>
+                <dd>★★★☆☆</dd>
+                <dt>영화 관람</dt>
+                <dd>★★☆☆☆</dd>
+                <dt>사진 촬영</dt>
+                <dd>★★★★☆</dd>
+                <dt>컴퓨터 게임</dt>
+                <dd>★★★★★</dd>
+                <dt>음악 감상</dt>
+                <dd>★★★★☆</dd>
+                <dt>수면 또 수면!</dt>
+                <dd>★★★★★</dd>
+              </dl>
+            </div>
+            <button
+              type="button"
+              class="button is-close-panel"
+              title="닫기"
+              aria-label="음료 정보 패널 닫기"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </li>
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img src="./images/specialty.jpg" alt width="323" height="323" />
+              <figcaption>김시훈 특기</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item2"
+          >
+            <h3 id="sihoonKim-menu__item2" class="sihoonKim-menu__item--name">
+              김시훈<span lang="en">(Sihoon's specialty)</span>
+            </h3>
+            <p>컴퓨터를 맞추는건 잘 못하지만, 컴퓨터를 활용하는건 잘함!</p>
+            <div class="sihoonKim-menu__item--multi-column is-2">
+              <dl>
+                <dt>컴퓨터 게임</dt>
+                <dd>★★★★☆</dd>
+                <dt>배드민턴</dt>
+                <dd>★★★☆☆</dd>
+                <dt>탁구</dt>
+                <dd>★★★★☆</dd>
+                <dt>숙면</dt>
+                <dd>★★★★★</dd>
+                <dt>멍 때리기</dt>
+                <dd>★★★☆☆</dd>
+                <dt>골프</dt>
+                <dd>★★☆☆☆</dd>
+              </dl>
+            </div>
+            <button
+              type="button"
+              class="button is-close-panel"
+              title="닫기"
+              aria-label="음료 정보 패널 닫기"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </li>
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img
+                src="./images/leagueoflegend.jpg"
+                alt
+                width="323"
+                height="323"
+              />
+              <figcaption>김시훈 최애 게임</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item3"
+          >
+            <h3 id="sihoonKim-menu__item3" class="sihoonKim-menu__item--name">
+              최애 게임<span lang="en">(Must do Game)</span>
+            </h3>
+            <p>전설의 시작</p>
+            <div class="sihoonKim-menu__item--multi-column is-2">
+              <dl>
+                <dt>리그오브레전드</dt>
+                <dd>★★★★★</dd>
+                <dt>서든 어택</dt>
+                <dd>★★★★☆</dd>
+                <dt>마인크래프트</dt>
+                <dd>★★★★☆</dd>
+                <dt>워크래프트3</dt>
+                <dd>★★★☆☆</dd>
+                <dt>스타크래프트</dt>
+                <dd>★★☆☆☆</dd>
+                <dt>테일즈러너</dt>
+                <dd>★★☆☆☆</dd>
+              </dl>
+            </div>
+            <button
+              type="button"
+              class="button is-close-panel"
+              title="닫기"
+              aria-label="음료 정보 패널 닫기"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </li>
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img src="./images/seulgi.jpg" alt width="323" height="323" />
+              <figcaption>김시훈 최애 연예인</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item4"
+          >
+            <h3 id="sihoonKim-menu__item4" class="sihoonKim-menu__item--name">
+              군대 시절 최애<span lang="en">(From the ARMY)</span>
+            </h3>
+            <p>
+              빠질 수 밖에 없는 매력, 연예인을 별로 좋아하지 않지만, 군대에서
+              어쩔 수 없이 빠지게 된 헤어나올 수 없는 인물들
+            </p>
+            <div class="sihoonKim-menu__item--multi-column is-2">
+              <dl>
+                <dt>슬기</dt>
+                <dd>★★★★★</dd>
+                <dt>우기</dt>
+                <dd>★★★★★</dd>
+                <dt>정채연</dt>
+                <dd>★★★★☆</dd>
+                <dt>백지헌</dt>
+                <dd>★★☆☆☆</dd>
+                <dt>이채령</dt>
+                <dd>★★★★☆</dd>
+                <dt>장원영</dt>
+                <dd>★★☆☆☆</dd>
+              </dl>
+            </div>
+            <button
+              type="button"
+              class="button is-close-panel"
+              title="닫기"
+              aria-label="음료 정보 패널 닫기"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </li>
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img src="./images/tesla.jpg" alt width="323" height="323" />
+              <figcaption>김시훈 롤모델</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item5"
+          >
+            <h3 id="sihoonKim-menu__item5" class="sihoonKim-menu__item--name">
+              닮고 싶고 좋아하는 사람<span lang="en">(Wanna Be)</span>
+            </h3>
+            <p>
+              돈도 많이 벌고, 인기는 있을지 없을지 모르지만, 일단 돈이 많으니
+              인기가 많을 거라고 유추하고 있는 인물들
+            </p>
+            <div class="sihoonKim-menu__item--multi-column is-2">
               <dl>
                 <dt>일론 머스크</dt>
                 <dd>★★★★★</dd>
@@ -214,28 +279,34 @@
               type="button"
               class="button is-close-panel"
               title="닫기"
-              aria-label="시훈 정보 패널 닫기"
+              aria-label="음료 정보 패널 닫기"
             >
               <span aria-hidden="true">×</span>
-                        </button>
-                </div>
-            </li>
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/motto.jpg" alt width="323" height="323" />
-                        <figcaption>김시훈 좌우명</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item6">
-                    <h3 id="sihoon-menu__item6" class="sihoon-menu__item--name">
-                        인생 살면서 지켜야할것<span lang="en">(Always todo)</span
-              >
+            </button>
+          </div>
+        </li>
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img src="./images/motto.jpg" alt width="323" height="323" />
+              <figcaption>김시훈 좌우명</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item6"
+          >
+            <h3 id="sihoonKim-menu__item6" class="sihoonKim-menu__item--name">
+              인생 살면서 지켜야할것<span lang="en">(Always todo)</span>
             </h3>
             <p>
-              인생을 너무 막 살면 나 자신이 너무 불쌍하니깐 어떻게 살자는 틀을 정한 모음집
+              인생을 너무 막 살면 나 자신이 너무 불쌍하니깐 어떻게 살자는 틀을
+              정한 모음집
             </p>
-            <div class="sihoon-menu__item--multi-column is-2">
+            <div class="sihoonKim-menu__item--multi-column is-2">
               <dl>
                 <dt>모든 일에 최고가 되자</dt>
                 <dd>★★★★★</dd>
@@ -255,93 +326,121 @@
               type="button"
               class="button is-close-panel"
               title="닫기"
-              aria-label="시훈 정보 패널 닫기"
+              aria-label="음료 정보 패널 닫기"
             >
               <span aria-hidden="true">×</span>
-                        </button>
-                </div>
-            </li>
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/trip.jpg" alt width="323" height="323" />
-                        <figcaption>다녀온 여행지</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item7">
-                    <h3 id="sihoon-menu__item7" class="sihoon-menu__item--name">
-                        좋았던 여행지들<span lang="en">(Best Trip Ever)</span>
-                    </h3>
-                    <p>
-                        눈이 사르륵 내리는 삿포로, 뜨거운 햇빛에 등을 녹이는 캘리포니아, 시원한 물놀이를 즐기는 가평 빠지~ 어느 곳이든 다 좋아
-                    </p>
-                    <div class="sihoon-menu__item--multi-column is-2">
-                        <dl>
-                            <dt>캘리포니아</dt>
-                            <dd>★★★★★</dd>
-                            <dt>도쿄</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>가평</dt>
-                            <dd>★★★★★</dd>
-                            <dt>화성</dt>
-                            <dd>★★☆☆☆</dd>
-                            <dt>대부도</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>군산</dt>
-                            <dd>★★☆☆☆</dd>
-                        </dl>
-                    </div>
-                    <button type="button" class="button is-close-panel" title="닫기" aria-label="시훈 정보 패널 닫기">
+            </button>
+          </div>
+        </li>
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img src="./images/trip.jpg" alt width="323" height="323" />
+              <figcaption>다녀온 여행지</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item7"
+          >
+            <h3 id="sihoonKim-menu__item7" class="sihoonKim-menu__item--name">
+              좋았던 여행지들<span lang="en">(Best Trip Ever)</span>
+            </h3>
+            <p>
+              눈이 사르륵 내리는 삿포로, 뜨거운 햇빛에 등을 녹이는 캘리포니아,
+              시원한 물놀이를 즐기는 가평 빠지~ 어느 곳이든 다 좋아
+            </p>
+            <div class="sihoonKim-menu__item--multi-column is-2">
+              <dl>
+                <dt>캘리포니아</dt>
+                <dd>★★★★★</dd>
+                <dt>도쿄</dt>
+                <dd>★★★★☆</dd>
+                <dt>가평</dt>
+                <dd>★★★★★</dd>
+                <dt>화성</dt>
+                <dd>★★☆☆☆</dd>
+                <dt>대부도</dt>
+                <dd>★★★★☆</dd>
+                <dt>군산</dt>
+                <dd>★★☆☆☆</dd>
+              </dl>
+            </div>
+            <button
+              type="button"
+              class="button is-close-panel"
+              title="닫기"
+              aria-label="음료 정보 패널 닫기"
+            >
               <span aria-hidden="true">×</span>
             </button>
-                </div>
-            </li>
-            <li class="sihoon-menu__item">
-                <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
-                    <figure>
-                        <img src="./images/movie.jpg" alt width="323" height="323" />
-                        <figcaption>김시훈 추천 영화</figcaption>
-                    </figure>
-                </a>
-                <div hidden class="sihoon-menu__item--detail" role="dialog" aria-modal="true" aria-labelledby="sihoon-menu__item8">
-                    <h3 id="sihoon-menu__item8" class="sihoon-menu__item--name">
-                        지금까지 중에서 최고의 영화<span lang="en">(Best Movies Ever)</span>
-                    </h3>
-                    <p>
-                        로맨스는 물론이고, 진정한 사나이가 무엇인지 알려주는 영화, 사랑을 어떻게 쟁취해야하는 지 알려줌(물론 폭력적이므로 현실에서는 이렇게 하지 말길)
-                    </p>
-                    <div class="sihoon-menu__item--multi-column is-2">
-                        <dl>
-                            <dt>남자가사랑할때</dt>
-                            <dd>★★★★★</dd>
-                            <dt>100 First Dates</dt>
-                            <dd>★★★★☆</dd>
-                            <dt>나는 내일, 어제의 너와 만난다</dt>
-                            <dd>★★★☆☆</dd>
-                            <dt>나의 소녀시대</dt>
-                            <dd>★★☆☆☆</dd>
-                            <dt>그 시절 우리가 좋아했던 소녀</dt>
-                            <dd>★★★★★</dd>
-                            <dt>말할 수 없는 비밀</dt>
-                            <dd>★★★☆☆</dd>
-                        </dl>
-                    </div>
-                    <button type="button" class="button is-close-panel" title="닫기" aria-label="시훈 정보 패널 닫기">
+          </div>
+        </li>
+        <li class="sihoonKim-menu__item">
+          <a href="#" role="button" aria-haspopup="dialog" aria-pressed="false">
+            <figure>
+              <img src="./images/movie.jpg" alt width="323" height="323" />
+              <figcaption>김시훈 추천 영화</figcaption>
+            </figure>
+          </a>
+          <div
+            hidden
+            class="sihoonKim-menu__item--detail"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="sihoonKim-menu__item8"
+          >
+            <h3 id="sihoonKim-menu__item8" class="sihoonKim-menu__item--name">
+              지금까지 중에서 최고의 영화<span lang="en"
+                >(Best Movies Ever)</span
+              >
+            </h3>
+            <p>
+              로맨스는 물론이고, 진정한 사나이가 무엇인지 알려주는 영화, 사랑을
+              어떻게 쟁취해야하는 지 알려줌(물론 폭력적이므로 현실에서는 이렇게
+              하지 말길)
+            </p>
+            <div class="sihoonKim-menu__item--multi-column is-2">
+              <dl>
+                <dt>남자가사랑할때</dt>
+                <dd>★★★★★</dd>
+                <dt>100 First Dates</dt>
+                <dd>★★★★☆</dd>
+                <dt>나는 내일, 어제의 너와 만난다</dt>
+                <dd>★★★☆☆</dd>
+                <dt>나의 소녀시대</dt>
+                <dd>★★☆☆☆</dd>
+                <dt>그 시절 우리가 좋아했던 소녀</dt>
+                <dd>★★★★★</dd>
+                <dt>말할 수 없는 비밀</dt>
+                <dd>★★★☆☆</dd>
+              </dl>
+            </div>
+            <button
+              type="button"
+              class="button is-close-panel"
+              title="닫기"
+              aria-label="음료 정보 패널 닫기"
+            >
               <span aria-hidden="true">×</span>
             </button>
-                </div>
-            </li>
-        </ul>
+          </div>
+        </li>
+      </ul>
     </div>
     <div class="app-footer a11y-hidden" role="contentinfo">
-        <address>
+      <address>
         <span
           >서울특별시 강남구 논현로 636 김시훈 빌딩(서울특별시 강남구 논현동
           221-17)</span
         >
         <span>TEL : 02-111-1111</span>
       </address>
-        <small class="copyright">&copy; 2017 Sihoon Company. ALL RIGHTS RESERVED.</small
+      <small class="copyright"
+        >&copy; 2017 Sihoon Company. ALL RIGHTS RESERVED.</small
       >
     </div>
   </body>
